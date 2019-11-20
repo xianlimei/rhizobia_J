@@ -109,6 +109,7 @@ WeChat:<br>
 * [9、AES加解密](#aes)
 * [10、RSA加解密](#rsa)
 * [11、ECDSA 加签验签](#ecdsa)
+* [12、安全加固](#ecdsa)
 
 <h3 id="importjsl">1、引用java security library</h3>
 
@@ -570,5 +571,14 @@ __使用order by、group by等需要转换列名时，需使用带boolean参数_
     boolean ifPass = ecInstance.verify(verified, plaintext);
 ```
 
+### 11.1、安全加固
 
-
+#### a、代码混淆
+   ```Java
+    https://sourceforge.net/projects/proguard/
+    https://github.com/shwenzhang/AndResGuard
+```
+#### b、动态加固
+    ```Java
+    https://github.com/amimo/dcc
+```
