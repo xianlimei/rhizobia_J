@@ -570,8 +570,9 @@ __使用order by、group by等需要转换列名时，需使用带boolean参数_
     byte[] verified = new BASE64Decoder().decodeBuffer(signtRet);
     boolean ifPass = ecInstance.verify(verified, plaintext);
 ```
+<h3 id="ecdsa">12、安全加固</h3>
 
-### 11.1、安全加固
+### 12.1、安全加固
 
 #### a、代码混淆
    ```Java
