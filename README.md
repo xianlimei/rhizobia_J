@@ -572,14 +572,13 @@ __使用order by、group by等需要转换列名时，需使用带boolean参数_
 ```
 <h3 id="ecdsa">12、安全加固</h3>
 
-### 12.1、安全加固
+### 12.1、代码混淆
 
-#### a、代码混淆
    ```Java
     https://sourceforge.net/projects/proguard/
     https://github.com/shwenzhang/AndResGuard
 ```
-#### b、动态加固
+### 12.2、动态加固
     ```Java
     https://github.com/amimo/dcc
 ```
